@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/INFO"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="30000"
+              username="root" password="qwer1234"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              defaultAutoCommit="false"
+              defaultTransactionIsolation="READ_COMMITTED"
+              connectionProperties="useUnicode=yes;characterEncoding=UTF8;serverTimezone=UTC;"
+              url="jdbc:mysql://localhost:3306/info?serverTimezone=Europe/Moscow"/>
+</Context>

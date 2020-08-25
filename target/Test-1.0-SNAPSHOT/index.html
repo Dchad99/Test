@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/config/jquery.js"></script>
+</head>
+<body>
+
+<div class="align_content">
+
+    <div class="head_icons">
+        <div class="left_side">
+            <a href="#"><i class="fa fa-home"></i></a>
+        </div>
+
+    </div>
+
+    <div class="content_inf">
+        <div class="container1">
+            <div class="align_element">
+                <div class="left">
+                    <img src="img/list.png">
+                </div>
+                <div class="center">
+                    <h3>Test Application</h3>
+                    <p>Student's class</p>
+                    <div class="btn_start" onclick="Start()">
+                        <a href="#" class="start">Start</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="img/man.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="registr_or_login" style="display: none;">
+            <div class="align_registr">
+                <div class="container" id="container">
+                    <div class="form-container sign-up-container">
+                        <form id="SignUpForm" method="post" class="register_form">
+                            <h1>Sign Up</h1>
+                            <input pattern="^[A-Z,a-z]*" name="name" type="text" placeholder="Name" autocomplete="off"
+                                   required/>
+                            <input pattern="^[A-Z,a-z]*" name="surname" type="text" placeholder="Surname"
+                                   autocomplete="off" required/>
+                            <input class="email" name="email" type="email" placeholder="Email" autocomplete="off" required/>
+                            <input pattern="^[A-Z,a-z]*" name="city" type="text" placeholder="City" autocomplete="off"
+                                   required/>
+
+                            <input pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" name="password" type="password"
+                                   autocomplete="off" placeholder="Password" class="pass_input" required/>
+                            <span class="input-group-btn" onclick="showPass()">
+                                <a class="btns btn-default reveal" type="button">
+                                    <div class="show_visible">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                    <div class="hide_visible">
+                                        <i style="display: none" class="fa fa-eye-slash"></i>
+                                    </div>
+                                </a>
+                            </span>
+
+
+
+                            <button class="sign_up_btn" type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="form-container sign-in-container">
+                        <form id="SignInForm" method="post">
+                            <h1>Sign In</h1>
+                            <br>
+                            <input name="email" type="email" placeholder="Email" class="email_input" autocomplete="off" required/>
+                            <input pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{0,}$" class="pass_input" name="password" type="password"
+                                   placeholder="Password" autocomplete="off" required/>
+                            <span class="input-group-btn" onclick="showPass()">
+                                <a class="btns btn-default reveal" type="button">
+                                    <div class="show_visible">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                    <div class="hide_visible">
+                                        <i style="display: none" class="fa fa-eye-slash"></i>
+                                    </div>
+                                </a>
+                            </span>
+                            <br>
+                            <button class="sign_in_btn" type="submit">Sign In</button>
+                        </form>
+                    </div>
+                    <div class="overlay-container">
+                        <div class="overlay">
+                            <div class="overlay-panel overlay-left">
+                                <h1>Hello, Student!</h1>
+                                <p>Enter your personal details and start journey with us After registration sign in</p>
+                                <button class="ghost" id="signIn">Sign In</button>
+                            </div>
+                            <div class="overlay-panel overlay-right">
+                                <h1>Welcome Back!</h1>
+                                <p>To keep connected with us please login with your personal info.</p>
+                                <button class="ghost" id="signUp">Sing Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer_social_networks">
+        <div class="align_network">
+            <div class="networks">
+                <div class="facebook">
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="google">
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>

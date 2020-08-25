@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.align_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.head_icons{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+.left_side{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.left_side a{
+    padding: 15px 20px;
+    font-size: 35px;
+    color: grey;
+    cursor: pointer;
+}
+.left_side a:hover{
+    color: rgb(97, 123, 240);
+}
+.right_side{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right_side select{
+    margin: 24px 28px;
+    padding-right: 10px;
+    /* width: 90px; */
+    border: 0px;
+    background: white;
+    border-bottom: 1px solid #bdbcbc;
+    color: #756767;
+    font-weight: 700;
+    font-size: 15px;
+    outline: none;
+}
+
+.content_inf{
+    display: flex;
+    flex-direction: row;
+}
+.container1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.align_element{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: -2rem;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center h3{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+}
+.center p{
+    margin-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left img{
+    margin-top: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right img{
+    margin-top: 20px;
+}
+.btn_start{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.btn_start a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    background: rgb(99, 124, 233);
+    padding: 15px 105px;
+    cursor: pointer;
+}
+.btn_start a:hover{
+    background: rgb(66, 94, 221);
+}
+
+.right img{
+    width: 310px;
+    height: 420px;
+}
+
+.footer_social_networks{
+    width: 100%;
+    height: 10vh;
+    margin-top: 3rem;
+}
+.align_network{
+    display: flex;
+    justify-content: center;
+}
+.networks{
+    margin-top: 1rem;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.networks a{
+    font-size: 35px;
+}
+.facebook a{
+    color: blue;
+}
+.instagram a{
+    color: orange;
+}
+.google a{
+    color: red;
+}
+.container{
+    display: none;
+}
+.align_registr{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.registr_or_login{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group-btn{
+    transform: translate(8rem, -36px);
+}
+

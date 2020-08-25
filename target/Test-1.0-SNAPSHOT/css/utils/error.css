@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.error_container{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+    -moz-box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+    box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+}
+
+.title{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+}
+.title p{
+    font-weight: 500;
+    font-size: 5rem;
+}
+.message{
+    margin-top: -5rem;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.message p{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.btn_back{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_back button{
+    margin: 3rem 0 3rem 0;
+    padding: 15px 4rem;
+    background: #79d367;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn_back button:hover{
+    background: #70c35f;
+}

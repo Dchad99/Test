@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.login_container{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login_content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+    -moz-box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+    box-shadow: -1px 4px 17px 2px rgba(184,178,184,0.72);
+}
+
+.login_title{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+}
+.login_title p{
+    font-weight: 500;
+    font-size: 5rem;
+}
+.login_message{
+    margin-top: -5rem;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login_message p{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.lg_btn_back{
+    display: flex;
+    justify-content: center;
+}
+
+.lg_btn_back button{
+    margin: 3rem 0 3rem 0;
+    padding: 15px 4rem;
+    background: #5564d3;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn_back button:hover{
+    background: #5564d3;;
+}
